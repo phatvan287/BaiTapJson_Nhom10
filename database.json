@@ -1,0 +1,152 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Phòng X",
+      "computers": [
+        {
+          "id": 1,
+          "monitor": "BenQ",
+          "cpu": "AMD Ryzen 3",
+          "ram": "4GB",
+          "storage": "256GB HDD",
+          "status": "Chờ bảo trì"
+        },
+        {
+          "id": 2,
+          "monitor": "ViewSonic",
+          "cpu": "Intel i5",
+          "ram": "8GB",
+          "storage": "512GB SSD",
+          "status": "Đang hoạt động"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Phòng Y",
+      "computers": [
+        {
+          "id": 1,
+          "monitor": "Dell",
+          "cpu": "Intel i7",
+          "ram": "16GB",
+          "storage": "1TB HDD",
+          "status": "Đang sử dụng"
+        },
+        {
+          "id": 2,
+          "monitor": "Lenovo",
+          "cpu": "AMD Ryzen 5",
+          "ram": "8GB",
+          "storage": "256GB SSD",
+          "status": "Đang bảo trì"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Phòng Z",
+      "computers": [
+        {
+          "id": 1,
+          "monitor": "Acer",
+          "cpu": "Intel i9",
+          "ram": "32GB",
+          "storage": "2TB SSD",
+          "status": "Đang hoạt động"
+        },
+        {
+          "id": 2,
+          "monitor": "MSI",
+          "cpu": "AMD Ryzen 7",
+          "ram": "16GB",
+          "storage": "512GB SSD",
+          "status": "Đang bảo trì"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Trần Văn A",
+      "username": "tranvana",
+      "password": "123",
+      "balance": 60000,
+      "role": "gamer"
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Thị B",
+      "username": "nguyenthib",
+      "password": "123",
+      "balance": 40000,
+      "role": "gamer"
+    },
+    {
+      "id": 3,
+      "name": "Lê Văn C",
+      "username": "levanc",
+      "password": "123",
+      "balance": 150000,
+      "role": "gamer"
+    },
+    {
+      "id": 4,
+      "name": "Phạm Thị D",
+      "username": "phamthid",
+      "password": "123",
+      "balance": 25000,
+      "role": "gamer"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Lê Văn B",
+      "username": "levanb",
+      "password": "123",
+      "phone": "0123456780",
+      "role": "staff"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị C",
+      "username": "tranthic",
+      "password": "123",
+      "phone": "0987654320",
+      "role": "staff"
+    },
+    {
+      "id": 3,
+      "name": "Nguyễn Văn D",
+      "username": "nguyenvand",
+      "password": "123",
+      "phone": "0912345670",
+      "role": "staff"
+    }
+  ],
+  "admin": {
+    "username": "superadmin",
+    "password": "123"
+  },
+  "reports": [
+    {
+      "username": "tranvana",
+      "violation": "Sử dụng thiết bị không đúng cách"
+    },
+    {
+      "username": "nguyenthib",
+      "violation": "Gây rối trật tự"
+    },
+    {
+      "username": "levanc",
+      "violation": "Không tuân thủ quy định"
+    },
+    {
+      "username": "phamthid",
+      "violation": "Thao tác không đúng quy trình"
+    }
+  ]
+}
