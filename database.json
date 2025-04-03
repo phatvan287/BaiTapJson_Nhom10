@@ -18,7 +18,7 @@
           "cpu": "Intel i5",
           "ram": "8GB",
           "storage": "512GB SSD",
-          "status": "Đang hoạt động"
+          "status": "Hư"
         }
       ]
     },
@@ -147,6 +147,10 @@
     {
       "username": "phamthid",
       "violation": "Thao tác không đúng quy trình"
+    },
+    {
+      "username": "tranvana",
+      "violation": "Xem sex"
     }
   ]
 }
